@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Detection log</title>
+</head>
+<body>
+<h1>Detection Log</h1>
+{% for page in pages %}
+<p>{{ page.Date }}</p>
+<img src="static/{{ page.Folder }}"  />
+<hr>
+{% endfor %}
+</body>
+</html>
